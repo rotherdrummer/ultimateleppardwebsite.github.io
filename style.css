@@ -83,7 +83,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 62px 50px;
+  : 62px 50px;
 }
 
 .left {
@@ -186,7 +186,7 @@ header {
   height: 100%;
   background-color: whitesmoke;
   border-radius: 20px;
-  padding: 2em 1em;
+  : 2em 1em;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -229,7 +229,7 @@ header {
 }
 
 .bTn {
-  padding: 8px 20px;
+  : 8px 20px;
   border-radius: 5px;
   font-size: 1rem;
   border: none;
@@ -253,7 +253,7 @@ header {
 
 #offer {
   margin: 30px 0;
-  padding: 25px;
+  : 25px;
 }
 
 .offer-container {
@@ -513,7 +513,7 @@ label {
   color: #fff;
   display: flex;
   justify-content: space-around;
-  padding: 85px 0;
+  padding: 15px 0;
   flex-wrap: wrap;
 }
 
@@ -885,5 +885,6 @@ footer .footerPara {
   }
 
 }
+
 
 
