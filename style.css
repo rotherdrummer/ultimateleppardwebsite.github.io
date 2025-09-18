@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  margin-bottom: 170px;
+  margin-bottom: 100px;
 }
 
 #navbar {
@@ -823,7 +823,7 @@ footer .footerPara {
   }
 
   .footerPara {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -895,6 +895,7 @@ footer .footerPara {
   }
 
 }
+
 
 
 
