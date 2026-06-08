@@ -20,7 +20,56 @@
 img {
   width: 50%;
 }
-</style>
+#events {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.eventsHeading {
+    font-size: 2rem;
+    margin-bottom: 24px;
+}
+
+.event-card {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 24px 32px;
+    max-width: 480px;
+    width: 100%;
+}
+
+.event-details h3 {
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+}
+
+.event-details p {
+    margin: 8px 0;
+    font-size: 1rem;
+}
+
+.event-details i {
+    margin-right: 8px;
+}
+
+.ticket-btn {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 10px 24px;
+    background-color: #f5a623;
+    color: #000;
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.ticket-btn:hover {
+    background-color: #e09200;
+}
+    </style>
 </head>
 
 <body>
@@ -36,6 +85,18 @@ img {
           
         </home>
 
+<!-- ---UPCOMING EVENTS SECTION--- -->
+<section id="events">
+    <h2 class="eventsHeading">Upcoming Events</h2>
+    <div class="event-card" data-aos="fade-up">
+        <div class="event-details">
+            <h3>MOTUL FIM Superbike World Championship</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Donington Park</p>
+            <p><i class="fa-solid fa-calendar"></i> Saturday 11 July 2026</p>
+            <a href="https://tickets.msv.com/calendar/donington-park/2026/july/world-superbike-championship/default" target="_blank" class="ticket-btn">Buy Tickets</a>
+        </div>
+    </div>
+</section>
     
 </main>           
      
