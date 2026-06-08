@@ -19,52 +19,69 @@ img {
 }
 #events {
     text-align: center;
-    padding: 40px 20px;
+    padding: 50px 20px;
 }
 .eventsHeading {
-    font-size: 2rem;
-    margin-bottom: 24px;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
     color: #fff;
     font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.eventsHeading::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.2rem;
+    background: goldenrod;
+    margin: 10px auto 0;
 }
 .event-card {
     display: inline-block;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: #190f0f;
+    border: 1px solid goldenrod;
     border-radius: 12px;
-    padding: 24px 32px;
-    max-width: 480px;
+    padding: 30px 40px;
+    max-width: 500px;
     width: 100%;
+    box-shadow: rgba(254, 156, 0, 0.35) 0px 5px 15px;
 }
 .event-details h3 {
-    font-size: 1.3rem;
-    margin-bottom: 12px;
-    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+    color: #ffffff;
     font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 1px;
 }
 .event-details p {
-    margin: 8px 0;
-    font-size: 1rem;
-    color: #fff;
+    margin: 10px 0;
+    font-size: 1.05rem;
+    color: rgb(255, 209, 0);
     font-family: 'Ubuntu', sans-serif;
 }
 .event-details i {
     margin-right: 8px;
+    color: rgb(255, 111, 0);
 }
 .ticket-btn {
     display: inline-block;
-    margin-top: 16px;
-    padding: 10px 24px;
+    margin-top: 20px;
+    padding: 12px 30px;
     background-color: rgb(255, 111, 0);
     color: #fff;
     font-weight: bold;
     border-radius: 6px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    transition: background-color 0.2s;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: 2px solid rgb(255, 111, 0);
+    transition: all 0.3s ease-in;
 }
 .ticket-btn:hover {
-    background-color: rgb(200, 80, 0);
+    background: transparent;
+    color: rgb(255, 111, 0);
 }
     </style>
 </head>
